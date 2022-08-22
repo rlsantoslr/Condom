@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Condom</string>
+    <string name="app_name">co.live</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
+    <string name="enter_account">Entrar na minha conta</string>
     <string name="action_sign_in">Acessar</string>
     <string name="action_sign_in_short">Cadastrar</string>
     <string name="welcome">"Welcome !"</string>
@@ -11,8 +12,7 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login_main">Iniciar sessão na conta</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="home_welcome">Bem vindo ao seu condominio</string>
-    <string name="home_signin">Entrar na minha conta</string>
+    <string name="home_welcome">Bem vindo ao seu condomínio</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

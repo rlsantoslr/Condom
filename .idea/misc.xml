@@ -7,6 +7,8 @@
         <entry key="..\:/Users/For All/AndroidStudioProjects/Condom/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.12081659973226239" />
         <entry key="..\:/Users/For All/AndroidStudioProjects/Condom/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/For All/AndroidStudioProjects/Condom/app/src/main/res/layout/activity_login.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.27818603515625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -15,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
