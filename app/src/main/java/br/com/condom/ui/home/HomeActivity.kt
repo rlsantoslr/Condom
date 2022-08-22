@@ -27,14 +27,15 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.fab.setOnClickListener { view ->
+/*        binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
-        }
+        }*/
 
         binding.signin.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+
     }
 }

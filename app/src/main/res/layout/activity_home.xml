@@ -24,10 +24,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="420dp"
+            android:layout_height="400dp"
             android:orientation="vertical"
             android:gravity="center"
-
             app:layout_anchor="@+id/linearLayout"
             app:layout_anchorGravity="center">
 
@@ -36,13 +35,13 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/houses" />
+                app:srcCompat="@drawable/houses"/>
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bem vindo ao seu condominio"
+            android:text="@string/home_welcome"
             android:layout_marginTop="50dp"
             android:textSize="30sp"
             android:layout_marginLeft="30dp"
@@ -60,7 +59,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"
-            android:text="Entrar na minha conta" />
+            android:text="@string/home_signin" />
     </LinearLayout>
 
 
