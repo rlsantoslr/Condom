@@ -34,7 +34,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/image_header_description"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/houses" />
         </LinearLayout>
