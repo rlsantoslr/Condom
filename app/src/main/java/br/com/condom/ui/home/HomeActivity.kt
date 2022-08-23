@@ -1,5 +1,6 @@
 package br.com.condom.ui.home
 
+import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
@@ -35,6 +36,8 @@ class HomeActivity : AppCompatActivity() {
         binding.signin.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            setResult(Activity.RESULT_OK);
+            finish();
         }
 
     }

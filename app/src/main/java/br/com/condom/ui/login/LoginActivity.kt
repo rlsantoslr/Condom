@@ -1,6 +1,7 @@
 package br.com.condom.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -15,6 +16,7 @@ import android.widget.Toast
 import br.com.condom.databinding.ActivityLoginBinding
 
 import br.com.condom.R
+import br.com.condom.ui.dashboard.DashboardActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -58,6 +60,8 @@ class LoginActivity : AppCompatActivity() {
             }
             if (loginResult.success != null) {
                 updateUiWithUser(loginResult.success)
+                val intent = Intent(this, DashboardActivity::class.java)
+                startActivity(intent)
             }
             setResult(Activity.RESULT_OK)
 
