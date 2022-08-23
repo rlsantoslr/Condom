@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">co.live</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="enter_account">Entrar na minha conta</string>
+    <string name="action_sign_in">Acessar</string>
+    <string name="action_sign_in_short">Cadastrar</string>
+</resources>
