@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">co.live</string>
+    <string name="title_activity_home">Tela inicial</string>
+    <string name="first_fragment_label">Home</string>
+    <string name="second_fragment_label">Login</string>
+    <!-- Main page -->
+    <string name="home_welcome">Bem-vindo ao seu condomínio</string>
+    <string name="enter_account">Entrar na minha conta</string>
+    <string name="action_sign_in_short">Cadastrar</string>
+    <string name="image_header_description">Imagem superior</string>
+
+    <!-- Strings related to login -->
+    <string name="login_main">Iniciar sessão na conta</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="welcome">"Bem-vindo!"</string>
+    <string name="login_failed">Login inválido</string>
+    <string name="invalid_username">Usuário inválido</string>
+    <string name="invalid_password">Senha inválida</string>
+</resources>
