@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">co.live</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="first_fragment_label">Home</string>
+    <string name="second_fragment_label">Login</string>
     <!-- Main page -->
     <string name="home_welcome">Welcome to your app</string>
     <string name="enter_account">Sign in</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">co.live</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_home">Tela inicial</string>
+    <string name="first_fragment_label">Home</string>
+    <string name="second_fragment_label">Login</string>
     <!-- Main page -->
     <string name="home_welcome">Bem-vindo ao seu condomínio</string>
     <string name="enter_account">Entrar na minha conta</string>

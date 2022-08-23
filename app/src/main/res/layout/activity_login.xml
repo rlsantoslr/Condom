@@ -28,7 +28,7 @@
             android:layout_height="fill_parent"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/houses"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/image_header_description" />
     </LinearLayout>
 
         <TextView
@@ -54,19 +54,22 @@
             android:selectAllOnFocus="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:autofillHints=""
             android:hint="@string/prompt_password"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:selectAllOnFocus="true"
+            android:textColorHint="#757575"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/username" />
