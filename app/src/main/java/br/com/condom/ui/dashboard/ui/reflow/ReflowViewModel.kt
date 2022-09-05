@@ -14,7 +14,7 @@ class ReflowViewModel : ViewModel() {
         val db = Firebase.firestore
         value = ""
         
-        db.collection("menuItens")
+        val rt = db.collection("menuItens")
             .whereEqualTo("active", true)
             .orderBy("order")
             .get()
