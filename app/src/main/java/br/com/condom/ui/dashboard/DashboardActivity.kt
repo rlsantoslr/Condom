@@ -14,6 +14,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.appcompat.app.AppCompatActivity
 import br.com.condom.R
 import br.com.condom.databinding.ActivityDashboardBinding
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -30,6 +32,9 @@ class DashboardActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }*/
+
+        val db = Firebase.firestore
+        val menuItens = db.collection("menuItens")        .get()
 
         val navHostFragment =
             (supportFragmentManager.findFragmentById(R.id.nav_host_fragment_content_dashboard) as NavHostFragment?)!!
