@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434780284327",
+    "project_id": "projetofiap-6237e",
+    "storage_bucket": "projetofiap-6237e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434780284327:android:d25c0ea4cf392d252cc282",
+        "android_client_info": {
+          "package_name": "br.com.condom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434780284327-v2ckuhj1gpiatbtq0fvclfioknriod3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg6Pg4Uim_Lrflm2fFzaDJxJ6jL6e4dXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434780284327-v2ckuhj1gpiatbtq0fvclfioknriod3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
