@@ -14,7 +14,10 @@ class ReflowViewModel : ViewModel() {
         val db = Firebase.firestore
         value = ""
         
-        db.collection("menuItens").whereEqualTo("active", true).get()
+        db.collection("menuItens")
+            .whereEqualTo("active", true)
+            .orderBy("order")
+            .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
                     Log.d(TAG, "${document.id} => ${document.data}")
